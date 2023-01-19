@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
+        "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+<suppressions>
+    <suppress checks="ImportOrder"
+              files="cafe-api/src"/>
+    <suppress checks="ParameterName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="MemberName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="ParameterName"
+              files="CustomerResponse.java"/>
+    <suppress checks="ParameterName"
+              files="ReservationResponse.java"/>
+    <suppress checks="MemberName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="ParameterName"
+              files="CustomerAssembler.java"/>
+    <suppress checks="MemberName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="ParameterName"
+              files="CustomerResource.java"/>
+    <suppress checks="MemberName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="DeclarationOrder"
+              files="cafe-api/src/test/"/>
+    <suppress checks="LocalFinalVariableName"
+              files="cafe-api/src/test/"/>
+    <suppress checks="Regexp"
+              files="cafe-api/src/test/" />
+    <suppress checks="RedundantImport"
+              files="CustomerResourceTest.java" />
+    <suppress checks="ParameterAssignment"
+                files="Customer.java" />
+    <suppress checks="AbbreviationAsWordInName"
+              files="CafeResource.java" />
+    <suppress checks="AbbreviationAsWordInName"
+              files="CafeConfigurationFactoryTest.java" />
+
+</suppressions>
